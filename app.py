@@ -17,3 +17,8 @@ def vada():
 @app.route("/hero")
 def hero:
 return "hero working"
+
+
+@app.route("/morning")
+def morning():
+    return "morning hello"
