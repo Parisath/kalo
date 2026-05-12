@@ -13,3 +13,7 @@ def work():
 @app.route("/workout")
 def vada():
     return "workout polam"
+
+@app.route("/hero")
+def hero:
+return "hero working"
