@@ -1,0 +1,15 @@
+from flask import Flask,render_template
+app=Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("home.html")
+
+@app.route("/1")
+def work():
+    return "hello"
+    return "how are you"
+
+@app.route("/workout")
+def vada():
+    return "workout polam"
